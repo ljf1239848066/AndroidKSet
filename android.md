@@ -8,17 +8,49 @@
 
 ### 数据结构
 
+- 链表
+
+- 二叉树
+
+- 红黑树
+
+### 常见算法
+
+- 排序
+
+- 查找
+
+- 动态规划
+
 ### 面向对象思想
 
-### 开发环境
+### 开发环境
+
+- Eclipse
+
+- Android Studio
 
 ### Android SDK
 
 ### Activity
 
+- 声明周期
+
+### Service
+
+- startService
+
+- bindService
+
 ### BroadcastReceiver
 
+- 静态注册
+
+- 动态注册
+
 ### ContentProvider
+
+### Application
 
 ### ActionBar
 
@@ -26,10 +58,25 @@
 
 ### Desktop Widget
 
+### AndroidManifest
+- 四大组件
+- 启动模式
+- 权限
+- 主题theme
+- intent-filter
 
 ## UI
 
 ### Layout
+- FrameLayout
+- LinearLayout
+- TableLayout
+- GridLayout
+- RelativeLayout
+- DrawerLayout
+- SlidingPanelLayout
+- CoordinatorLayout
+- ConstraintLayout
 
 ### View
 
@@ -37,7 +84,38 @@
 
 ### anim
 
+- View Animation
+1. Tween Animation
+2. Frame Animation
+
+- Proterty Animation
+1. ValueAnimator
+2. ObjectAnimator
+3. AnimatorSet
+
 ### Resource
+
+- res
+1. anim
+2. animator
+3. drawable
+4. mipmap
+5. interpolator
+6. layout
+7. menu
+8. raw
+9. values
+1) arrays
+2) attrs
+3) bools
+4) colors
+5) string
+6) styles
+10. xml
+
+- assets
+
+AssetManager
 
 ### OenGL
 
@@ -62,22 +140,37 @@
 ## 数据持久化
 
 ### Sqlite
+- SQLiteOpenHelper
+- ContentProvider
 
 ### File
+- Internal Storage
+- External Storage
 
 ### SharePreferences
-
 
 ## 性能
 
 ### UI优化
 
 ### 内存优化
+- OOM
+- ANR
+- 分析
+1. Heap
+2. adb shell
+3. TraceView
+4. Dalvik日志
+5. logcat
+6. MAT
 
 ### 电量优化
 
 ### 流量优化
 
+## 编译
+
+### JVM、Dalvik与Art的区别
 
 ## 调试
 
@@ -145,10 +238,17 @@
 
 ### C++
 
+- 引用于指针
+
+- 智能指针
+
+- 虚函数
 
 ## 手机功能
 
 ### 电话
+- 联系人
+- 通话记录
 
 ### 短/彩信
 
@@ -159,7 +259,18 @@
 ### SD卡
 
 ### 感应器
-
+- 加速
+- 方向
+- 重力
+- 光线
+- 陀螺仪
+- 磁场
+- 距离
+- 温度
+- 压力
+- 线性加速度
+- 旋转
+- 多点触控
 
 ## 第三方扩展
 
@@ -184,8 +295,6 @@
 ## 其他
 
 ### Intent
-
-### AndroidManifest
 
 ### AIDL
 
