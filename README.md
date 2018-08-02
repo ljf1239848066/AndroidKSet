@@ -10,3 +10,5 @@ Android Knowledge Set
 ## [数据结构与算法](https://github.com/ljf1239848066/AndroidKSet/blob/master/structurealgo.md)
 
 ## [开源组件](https://github.com/ljf1239848066/AndroidKSet/blob/master/osp.md)
+
+## [平台工具](https://github.com/ljf1239848066/AndroidKSet/blob/master/tools.md)
