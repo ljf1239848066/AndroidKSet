@@ -111,6 +111,8 @@
 
 - bindService
 
+- IntentService
+
 ### BroadcastReceiver
 
 - 静态注册
