@@ -271,6 +271,13 @@ input keyevent KEYCODE_HOME
 input tab 123 345
 #从坐标(1,2)滑动到(100,300),200毫秒内
 input swipe 1 2 100 300 200
+
+#截图
+adb shell screencap /sdcard/1.png
+#录屏 只能使用**Ctrl+C**停止
+adb shell screenrecord /sdcard/1.mp4
+#下载手机文件到本地
+adb pull /sdcard/1.mp4 .
 ```
 
 ### HierachyViewer
