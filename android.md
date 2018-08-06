@@ -113,6 +113,13 @@
 
 - IntentService
 
+    IntentService:异步处理服务，新开一个线程：handlerThread在线程中发消息，然后接受处理完成后，会清理线程，并且关掉服务。IntentService有以下特点：
+    1. 它创建了一个独立的工作线程来处理所有的通过onStartCommand()传递给服务的intents。
+    2. 创建了一个工作队列，来逐个发送intent给onHandleIntent()。
+    3. 不需要主动调用stopSelft()来结束服务。因为，在所有的intent被处理完后，系统会自动关闭服务。
+    4. 默认实现的onBind()返回null
+    5. 默认实现的onStartCommand()的目的是将intent插入到工作队列中
+
 ### BroadcastReceiver
 
 - 静态注册
@@ -248,6 +255,23 @@ AssetManager
 ### Logcat
 
 ### adb
+
+- 命令行控制手机
+
+```
+#进入手机交互模式
+adb shell
+#命令控制输入文本
+input text 123456
+#命令控制输入按键值 keycode可百度查
+input keyevent 7
+input keyevent KEYCODE_1
+input keyevent KEYCODE_HOME
+#点击坐标(123,345)
+input tab 123 345
+#从坐标(1,2)滑动到(100,300),200毫秒内
+input swipe 1 2 100 300 200
+```
 
 ### HierachyViewer
 
