@@ -162,6 +162,10 @@
 
 ### View
 
+- 事件分发机制
+dispatchTouchEvent->onInterceptTouchEvent(false:向子View分发 true:return)->onTouch(true)->return
+dispatchTouchEvent->onInterceptTouchEvent(false:向子View分发 true:return)->onTouch(false)->onTouchEvent->Click
+
 ### Custom View
 
 ### anim
