@@ -66,7 +66,22 @@
 12. abstract的方法是否可以同时static？是否可以同时native？是否可以同时是synchronized？
 13. 线程中wait、join、sleep、yield、notify、notifyall、synchronized的区别与联系
 14. 单例模式的写法 
-15. HashMap
+
+### Java进阶
+
+1. 垃圾回收(GC)
+
+    - Java虚拟机的内存区域中，程序计数器、虚拟机栈和本地方法栈三个区域是线程私有的，随线程生而生，随线程灭而灭；栈中的栈帧随着方法的进入和退出而进行入栈和出栈操作，每个栈帧中分配多少内存基本上是在类结构确定下来时就已知的，因此这三个区域的内存分配和回收都具有确定性，在这几个区域内就不需要过多的考虑回收的问题，因为方法结束或者线程结束时，内存自然就跟随回收了。而Java堆和方法区则不一样，所以垃圾回收重点关注的是堆和方法区部分的内存。
+
+    - 垃圾区分算法:
+    **引用计数法**、**可达性分析法**
+
+    - 垃圾回收算法:
+    **标记清除法**、**复制法**、**标记——整理法**、**分代收集法**(年轻代、年老代、持久代)
+
+
+
+2. HashMap
 
     HashMap是一个存储键值对(key-value)映射的散列表;
 
@@ -163,6 +178,7 @@
 ### View
 
 - 事件分发机制
+
 dispatchTouchEvent->onInterceptTouchEvent(false:向子View分发 true:return)->onTouch(true)->return
 dispatchTouchEvent->onInterceptTouchEvent(false:向子View分发 true:return)->onTouch(false)->onTouchEvent->Click
 
