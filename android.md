@@ -66,6 +66,10 @@
 12. abstract的方法是否可以同时static？是否可以同时native？是否可以同时是synchronized？
 13. 线程中wait、join、sleep、yield、notify、notifyall、synchronized的区别与联系
 14. 单例模式的写法 
+15. HashMap
+
+    HashMap是一个存储键值对(key-value)映射的散列表;
+
 
 ### 数据结构
 
