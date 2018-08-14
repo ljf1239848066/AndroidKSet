@@ -16,7 +16,7 @@
 
 4. [fastjson](https://github.com/alibaba/fastjson)
 
-A fast JSON parser/generator for Java https://github.com/alibaba/fastjson/wiki
+    A fast JSON parser/generator for Java https://github.com/alibaba/fastjson/wiki
 
 5. [LiveDataBus](https://github.com/JeremyLiao/LiveDataBus)
 
@@ -34,6 +34,10 @@ A fast JSON parser/generator for Java https://github.com/alibaba/fastjson/wiki
 8. [RxBinding](https://github.com/JakeWharton/RxBinding)
 
     RxBinding 是 Jake Wharton 的一个开源库，它提供了一套在 Android 平台上的基于 RxJava 的 Binding API
+
+9. [Volley](https://github.com/google/volley)
+
+    Volley is an HTTP library that makes networking for Android apps easier and, most importantly, faster.
 
 ## 插件化相关
 
