@@ -65,7 +65,10 @@
 
 12. abstract的方法是否可以同时static？是否可以同时native？是否可以同时是synchronized？
 13. 线程中wait、join、sleep、yield、notify、notifyall、synchronized的区别与联系
-14. 单例模式的写法 
+14. 单例模式的写法
+15. 自动拆装箱
+https://juejin.im/post/5b8de48951882542d63b4662
+
 
 ### Java进阶
 
@@ -84,6 +87,11 @@
 2. HashMap
 
     HashMap是一个存储键值对(key-value)映射的散列表;
+
+3. 内存模型
+
+4. 类的加载过程
+
 
 
 ### 数据结构
@@ -181,6 +189,16 @@
 
 dispatchTouchEvent->onInterceptTouchEvent(false:向子View分发 true:return)->onTouch(true)->return
 dispatchTouchEvent->onInterceptTouchEvent(false:向子View分发 true:return)->onTouch(false)->onTouchEvent->Click
+
+### Handler
+
+- Handler的工作原理以及Handler与Looper、MessageQueue三者的关系
+https://blog.csdn.net/lmj623565791/article/details/38377229
+
+    Android Handler 异步消息处理机制的妙用 创建强大的图片加载类：https://blog.csdn.net/lmj623565791/article/details/38476887
+
+- Handler与HandlerThread
+
 
 ### Custom View
 
