@@ -130,7 +130,7 @@ https://juejin.im/post/5b8de48951882542d63b4662
 
 ### Activity
 
-- 声明周期
+- 生命周期
 
 ### Service
 
@@ -160,6 +160,12 @@ https://juejin.im/post/5b8de48951882542d63b4662
 ### ActionBar
 
 ### Fragment
+
+- 生命周期
+
+- 重叠问题
+
+- 屏幕旋转复用问题
 
 ### Desktop Widget
 
@@ -291,6 +297,12 @@ AssetManager
 ## 编译
 
 ### JVM、Dalvik与Art的区别
+
+https://blog.csdn.net/evan_man/article/details/52414390
+
+JVM执行的是.class文件
+Dalvik执行的是.dex文件
+Art执行的是应用安装时编译的机器码
 
 ## 调试
 
