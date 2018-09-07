@@ -132,6 +132,8 @@ https://juejin.im/post/5b8de48951882542d63b4662
 
 - 生命周期
 
+- Activity加载原理
+
 ### Service
 
 - startService
@@ -207,6 +209,12 @@ https://blog.csdn.net/lmj623565791/article/details/38377229
 
 
 ### Custom View
+
+- onMeasure、onLayout、onDraw
+
+- UNSPECIFIED、AT_MOST、EXACTLY
+
+- 自定义属性
 
 ### anim
 
@@ -300,8 +308,8 @@ AssetManager
 
 https://blog.csdn.net/evan_man/article/details/52414390
 
-JVM执行的是.class文件
-Dalvik执行的是.dex文件
+JVM执行的是.class文件，JVM基于虚拟机栈的虚拟机
+Dalvik执行的是.dex文件，Dalvik基于寄存器的虚拟机
 Art执行的是应用安装时编译的机器码
 
 ## 调试
