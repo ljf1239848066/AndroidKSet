@@ -92,6 +92,12 @@ https://juejin.im/post/5b8de48951882542d63b4662
 
 4. 类的加载过程
 
+5. 线程池
+
+6. AsyncTask
+
+
+
 
 
 ### 数据结构
@@ -133,6 +139,8 @@ https://juejin.im/post/5b8de48951882542d63b4662
 - 生命周期
 
 - Activity加载原理
+
+- Activity启动
 
 ### Service
 
@@ -198,6 +206,14 @@ https://juejin.im/post/5b8de48951882542d63b4662
 dispatchTouchEvent->onInterceptTouchEvent(false:向子View分发 true:return)->onTouch(true)->return
 dispatchTouchEvent->onInterceptTouchEvent(false:向子View分发 true:return)->onTouch(false)->onTouchEvent->Click
 
+### Custom View
+
+- onMeasure、onLayout、onDraw
+
+- UNSPECIFIED、AT_MOST、EXACTLY
+
+- 自定义属性
+
 ### Handler
 
 - Handler的工作原理以及Handler与Looper、MessageQueue三者的关系
@@ -206,15 +222,6 @@ https://blog.csdn.net/lmj623565791/article/details/38377229
     Android Handler 异步消息处理机制的妙用 创建强大的图片加载类：https://blog.csdn.net/lmj623565791/article/details/38476887
 
 - Handler与HandlerThread
-
-
-### Custom View
-
-- onMeasure、onLayout、onDraw
-
-- UNSPECIFIED、AT_MOST、EXACTLY
-
-- 自定义属性
 
 ### anim
 
