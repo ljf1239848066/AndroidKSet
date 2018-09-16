@@ -270,6 +270,37 @@ https://blog.csdn.net/lmj623565791/article/details/38377229
 
 AssetManager
 
+### Drawable
+
+- AnimationDrawabble:</br>
+    An object used to create frame-by-frame animations, defined by a series of Drawable objects, which can be used as a View object's background.
+- AnimatedTotateDrawable:</br>
+    A Drawable that can animate a rotation of another Drawable.
+- RotateDrawable:</br>
+    A Drawable that can rotate another Drawable based on the current level value.
+- ScaleDrawable:</br>
+    A Drawable that changes the size of another Drawable based on its current level value.
+- TransitionDrawable:</br>
+    An extension of <layer-list> that is intended to cross-fade between the first and second layer.
+- BitmapDrawable:</br>
+     Drawable that wraps a bitmap and can be tiled, stretched, or aligned.
+- ColorDrawable:</br>
+    A specialized Drawable that fills the Canvas with a specified color, with respect to the clip region
+- NinePatchDrawable:</br>
+    A resizeable bitmap, with stretchable areas that you define.
+- GradientDrawable:</br>
+    Basic method for drawing shapes via XML.
+- ClipDrawable:</br>
+    A Drawable that clips another Drawable based on this Drawable's current level value
+- InsetDrawable:</br>
+    A Drawable that insets another Drawable by a specified distance.
+- LayerDrawable:</br>
+    A Drawable that manages an array of other Drawables. These are drawn in array order.
+- LevelListDrawable:</br>
+    A resource that manages a number of alternate Drawables, each assigned a maximum numerical value.
+- StateListDrawable:</br>
+    Lets you assign a number of graphic images to a single Drawable and swap out the visible item based on state.
+
 ### OenGL
 
 
