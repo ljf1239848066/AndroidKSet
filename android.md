@@ -96,8 +96,11 @@ https://juejin.im/post/5b8de48951882542d63b4662
 
 6. AsyncTask
 
-
-
+7. Java中的引用类型
+    - 强引用
+    - 弱引用
+    - 虚引用
+    - 软引用
 
 
 ### 数据结构
