@@ -84,7 +84,7 @@ https://juejin.im/post/5b8de48951882542d63b4662
 
 
 
-2. HashMap
+2. HashMap(jdk1.7与jdk1.8的区别)
 
     HashMap是一个存储键值对(key-value)映射的散列表;
 
