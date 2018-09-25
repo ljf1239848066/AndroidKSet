@@ -96,7 +96,7 @@ https://juejin.im/post/5b8de48951882542d63b4662
 
 6. AsyncTask
 
-7. Java中的引用类型
+7. Java中的引用类型: https://www.cnblogs.com/baizhanshi/p/6272584.html
     - 强引用
     - 弱引用
     - 虚引用
@@ -108,9 +108,8 @@ https://juejin.im/post/5b8de48951882542d63b4662
 - 链表
 
 - 二叉树
-
-    中序遍历
     前序遍历
+    中序遍历
     后序遍历
 
 - 红黑树
@@ -138,6 +137,9 @@ https://juejin.im/post/5b8de48951882542d63b4662
 - Android Studio
 
 ### Android SDK
+
+- 版本适配
+- 各大版本特性
 
 ### Activity
 
