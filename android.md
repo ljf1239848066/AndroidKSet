@@ -97,6 +97,8 @@ https://juejin.im/post/5b8de48951882542d63b4662
 
 5. 线程池
 
+https://www.cnblogs.com/dolphin0520/p/3932921.html
+
 6. AsyncTask
 
 7. Java中的引用类型: https://www.cnblogs.com/baizhanshi/p/6272584.html
