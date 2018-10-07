@@ -95,9 +95,49 @@ https://juejin.im/post/5b8de48951882542d63b4662
 
 4. 类的加载过程
 
-5. 线程池
+5. 线程池:https://www.cnblogs.com/dolphin0520/p/3932921.html
 
-https://www.cnblogs.com/dolphin0520/p/3932921.html
+- 基本参数
+
+    1. keepAliveTime           线程存货时间</br>
+    2. allowCoreThreadTimeOut  是否允许为核心线程设置存活时间</br>
+    3. corePoolSize            核心池的大小（即线程池中的线程数目大于这个参数时，提交的任务会被放进任务缓存队列）</br>
+    4. maximumPoolSize         线程池最大能容忍的线程数</br>
+    5. poolSize                线程池中当前的线程数</br>
+
+- 创建线程池方法
+
+    1. Executors.newCachedThreadPool();          //创建一个缓冲池，缓冲池容量大小为Integer.MAX_VALUE
+
+```java
+public static ExecutorService newFixedThreadPool(int nThreads) {
+    return new ThreadPoolExecutor(nThreads, nThreads,
+                                  0L, TimeUnit.MILLISECONDS,
+                                  new LinkedBlockingQueue<Runnable>());
+}
+```
+
+    2. Executors.newSingleThreadExecutor();      //创建容量为1的缓冲池
+
+```java
+public static ExecutorService newSingleThreadExecutor() {
+    return new FinalizableDelegatedExecutorService
+        (new ThreadPoolExecutor(1, 1,
+                                0L, TimeUnit.MILLISECONDS,
+                                new LinkedBlockingQueue<Runnable>()));
+}
+```
+
+    3. Executors.newFixedThreadPool(int);        //创建固定容量大小的缓冲池
+
+```java
+public static ExecutorService newCachedThreadPool() {
+    return new ThreadPoolExecutor(0, Integer.MAX_VALUE,
+                                  60L, TimeUnit.SECONDS,
+                                  new SynchronousQueue<Runnable>());
+}
+```
+
 
 6. AsyncTask
 
