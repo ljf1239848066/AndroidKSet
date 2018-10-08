@@ -86,7 +86,9 @@ https://juejin.im/post/5b8de48951882542d63b4662
 
 2. HashMap(jdk1.7与jdk1.8的区别)
 
-    HashMap是一个存储键值对(key-value)映射的散列表;
+    - 介绍:HashMap是一个存储键值对(key-value)映射的散列表;
+
+    - 内部结构:
 
 3. 内存模型
 
@@ -529,6 +531,7 @@ adb pull /sdcard/1.mp4 .
 ### SD卡
 
 ### 感应器
+
 - 加速
 - 方向
 - 重力
@@ -548,12 +551,13 @@ adb pull /sdcard/1.mp4 .
 
 ### 语音识别
 
+### 短信验证
+
 ### 支付
 
 ### 统计分析
 
 ### 广告
-
 
 ## 插件化
 
