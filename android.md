@@ -360,9 +360,21 @@ AssetManager
 
 ## 通信
 
-### Http
+### IPC
+
+### 线程同步与通信
 
 ### Socket
+
+### 网络请求
+
+### FTP
+
+### Http
+
+- Http
+
+- Https
 
 ### Bluetooth
 
