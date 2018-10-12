@@ -154,12 +154,18 @@ public static ExecutorService newCachedThreadPool() {
 
 - 链表
 
+ArrayList与LinkedArrayList的区别
+
+- 哈希表
+
 - 二叉树
     前序遍历
     中序遍历
     后序遍历
 
 - 红黑树
+
+- 图
 
 ### 常见算法
 
@@ -357,10 +363,17 @@ AssetManager
 
 ### OenGL
 
+### 序列化
 
 ## 通信
 
 ### IPC
+
+- AIDL
+
+- Messager
+
+- ContentProvider
 
 ### 线程同步与通信
 
@@ -390,10 +403,12 @@ AssetManager
 ## 数据持久化
 
 ### Sqlite
+
 - SQLiteOpenHelper
 - ContentProvider
 
 ### File
+
 - Internal Storage
 - External Storage
 
@@ -406,6 +421,7 @@ AssetManager
 ### UI优化
 
 ### 内存优化
+
 - OOM
 - ANR
 - 分析
@@ -438,7 +454,7 @@ Art执行的是应用安装时编译的机器码
 
 - 命令行控制手机
 
-```
+```shell
 #进入手机交互模式
 adb shell
 #命令控制输入文本
