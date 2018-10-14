@@ -245,6 +245,8 @@ ArrayList与LinkedArrayList的区别
 
 - 生命周期
 
+https://www.cnblogs.com/LangZXG/p/6501839.html
+
 - 重叠问题
 
 - 屏幕旋转复用问题
