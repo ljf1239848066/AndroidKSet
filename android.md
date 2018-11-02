@@ -472,10 +472,28 @@ input swipe 1 2 100 300 200
 
 #截图
 adb shell screencap /sdcard/1.png
+adb shell screencap -p /sdcard/1.png
+
 #录屏 只能使用 **Ctrl+C** 停止
 adb shell screenrecord /sdcard/1.mp4
 #下载手机文件到本地
 adb pull /sdcard/1.mp4 .
+
+#wifi调试
+adb shell setprop service.adb.tcp.port 5555
+adb shell ifconfig | grep addr
+adb shell stop adbd && start adbd
+adb connect xx.xx.xx.xx:5555
+
+#电量
+adb shell dumpsys batterystats --enable full-wake-history 
+adb shell dumpsys batterystats --reset
+adb shell dumpsys batterystats
+
+#查看安装的应用
+adb shell pm list packages
+
+
 ```
 
 ### HierachyViewer
