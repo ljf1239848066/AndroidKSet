@@ -436,6 +436,8 @@ AssetManager
 
 ### 电量优化
 
+Battery Historian https://www.jianshu.com/p/27ba2759b221/
+
 ### 流量优化
 
 ## 编译
