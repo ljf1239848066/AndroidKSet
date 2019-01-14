@@ -69,6 +69,11 @@
 15. 自动拆装箱
 https://juejin.im/post/5b8de48951882542d63b4662
 
+16. Java中的引用类型: https://www.cnblogs.com/baizhanshi/p/6272584.html
+    - 强引用
+    - 弱引用
+    - 虚引用
+    - 软引用
 
 ### Java进阶
 
@@ -145,11 +150,8 @@ public static ExecutorService newCachedThreadPool() {
 
 6. AsyncTask
 
-7. Java中的引用类型: https://www.cnblogs.com/baizhanshi/p/6272584.html
-    - 强引用
-    - 弱引用
-    - 虚引用
-    - 软引用
+7. 注解
+深入理解Java注解类型(@Annotation) https://blog.csdn.net/javazejian/article/details/71860633
 
 
 ### 数据结构
