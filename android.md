@@ -66,6 +66,9 @@
 12. abstract的方法是否可以同时static？是否可以同时native？是否可以同时是synchronized？
 13. 线程中wait、join、sleep、yield、notify、notifyall、synchronized的区别与联系
 14. 单例模式的写法
+https://www.cnblogs.com/hupp/p/4487521.html
+https://blog.csdn.net/javazejian/article/details/71333103
+
 15. 自动拆装箱
 https://juejin.im/post/5b8de48951882542d63b4662
 
