@@ -41,11 +41,11 @@
 
 8. sleep与wait的区别
 
-    1）sleep来自Thread类，使用时需要捕获异常; wait来自Object类，使用时不需要捕获异常;<br/>
-    2）sleep方法没有释放锁，wait方法释放了锁，使得其他线程可以使用同步控制块或者方法;<br/>
+    1) sleep来自Thread类，使用时需要捕获异常; wait来自Object类，使用时不需要捕获异常;<br/>
+    2) sleep方法没有释放锁，wait方法释放了锁，使得其他线程可以使用同步控制块或者方法;<br/>
     3) sleep不出让系统资源，wait是进入线程等待池等待，出让系统资源，其他线程可以占用CPU;<br/>
     4) sleep(milliseconds)可以用时间指定使它自动唤醒过来，如果时间不到只能调用interrupt()强行打断; 一般wait不会加时间限制，因为如果wait线程的运行资源不够，再出来也没用，要等待其他线程调用notify/notifyAll唤醒等待池中的所有线程，才会进入就绪队列等待OS分配系统资源;<br/>
-    5）wait，notify和notifyAll只能在同步控制方法或者同步控制块里面使用，而sleep可以在任何地方使用 .
+    5) wait，notify和notifyAll只能在同步控制方法或者同步控制块里面使用，而sleep可以在任何地方使用 .
 
 9. 同步和异步有什么不同，在什么情况下使用
 
@@ -102,6 +102,7 @@ https://juejin.im/post/5b8de48951882542d63b4662
 
 本地方法栈 虚拟机栈 程序计数器 
 方法区 堆
+https://blog.csdn.net/weixin_36795183/article/details/79420771
 
 4. 类的加载过程
 
@@ -169,6 +170,8 @@ ArrayList与LinkedArrayList的区别
     前序遍历
     中序遍历
     后序遍历
+    层序遍历
+    树形结构打印
 
 - 红黑树
 
