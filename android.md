@@ -1,6 +1,6 @@
 # Android基础知识
 
-![Android知识图谱](http://o8ydbqznc.bkt.clouddn.com/markdown/androidknowledge.png)
+![Android知识图谱](http://lxzh.oss-cn-hangzhou.aliyuncs.com/markdown/androidknowledge.png)
 
 ## 基础知识
 
@@ -82,6 +82,9 @@ https://juejin.im/post/5b8de48951882542d63b4662
     - 虚引用
     - 软引用
 
+17. String intern() 方法的作用
+https://mp.weixin.qq.com/s/w697uPRCjn6kEzd_7u-aUQ
+
 ### Java进阶
 
 1. 垃圾回收(GC)
@@ -104,7 +107,7 @@ https://juejin.im/post/5b8de48951882542d63b4662
 
 3. 内存模型
 
-本地方法栈 虚拟机栈 程序计数器 
+本地方法栈 虚拟机栈 程序计数器
 方法区 堆
 https://blog.csdn.net/weixin_36795183/article/details/79420771
 
@@ -564,6 +567,7 @@ adb shell pm list packages
 ### webview/JS安全调用
 
 ### MD5、DES、RSA、https、证书、权限
+
 - [https](https://juejin.im/entry/5b5fc811f265da0f697049c1)
 http三次握手 四次挥手
 
