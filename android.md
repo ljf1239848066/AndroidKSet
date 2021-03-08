@@ -22,11 +22,11 @@
 
 4. switch支持的数据类型有哪些？
 
-    java switch 在 **jdk1.6**以前支持五种数据类型:`byte`、`char`、`short`、`int`、`enum`, **jdk1.7**中为6中:`byte`、`char`、`short`、`int`、`enum`、`String`.
+    java switch 在 **jdk1.6**以前支持五种数据类型:`byte`、`char`、`short`、`int`、`enum`, **jdk1.7**中为6种:`byte`、`char`、`short`、`int`、`enum`、`String`.
 
 5. final、finally与finalize的区别
 
-    **final**用于什么声明属性、方法和类，分别表示属性不可变、方法不可覆盖、类不可被继承
+    **final**用于声明属性、方法和类，分别表示属性不可变、方法不可覆盖、类不可被继承
     **finally**是异常捕获处理语句结构的一部分, 表示无论异常是否发生都会执行的
     **finalize**是Object类的一个方法，在垃圾回收器执行的时候回调被回收对象的此方法，可以覆盖此方法提供垃圾回收时的其他资源回收，例如关闭文件等。
 
@@ -92,7 +92,8 @@ https://mp.weixin.qq.com/s/w697uPRCjn6kEzd_7u-aUQ
     - Java虚拟机的内存区域中，程序计数器、虚拟机栈和本地方法栈三个区域是线程私有的，随线程生而生，随线程灭而灭；栈中的栈帧随着方法的进入和退出而进行入栈和出栈操作，每个栈帧中分配多少内存基本上是在类结构确定下来时就已知的，因此这三个区域的内存分配和回收都具有确定性，在这几个区域内就不需要过多的考虑回收的问题，因为方法结束或者线程结束时，内存自然就跟随回收了。而Java堆和方法区则不一样，所以垃圾回收重点关注的是堆和方法区部分的内存。
 
     - 垃圾区分算法:
-    **引用计数法**、**可达性分析法**
+    **引用计数法**、**可达性分析法**:
+    https://blog.csdn.net/jie_sil/article/details/90745324
 
     - 垃圾回收算法:
     **标记清除法**、**复制法**、**标记——整理法**、**分代收集法**(年轻代、年老代、持久代)
@@ -100,6 +101,8 @@ https://mp.weixin.qq.com/s/w697uPRCjn6kEzd_7u-aUQ
 
 
 2. HashMap(jdk1.7与jdk1.8的区别)
+
+    https://blog.csdn.net/woshimaxiao1/article/details/83661464
 
     - 介绍:HashMap是一个存储键值对(key-value)映射的散列表;
 
@@ -109,7 +112,7 @@ https://mp.weixin.qq.com/s/w697uPRCjn6kEzd_7u-aUQ
 
 本地方法栈 虚拟机栈 程序计数器
 方法区 堆
-https://blog.csdn.net/weixin_36795183/article/details/79420771
+http://www.54tianzhisheng.cn/2018/02/28/Java-Memory-Model/
 
 4. 类的加载过程
 
@@ -119,7 +122,7 @@ https://blog.csdn.net/weixin_36795183/article/details/79420771
 
 - 基本参数
 
-    1. keepAliveTime           线程存货时间</br>
+    1. keepAliveTime           线程存活时间</br>
     2. allowCoreThreadTimeOut  是否允许为核心线程设置存活时间</br>
     3. corePoolSize            核心池的大小（即线程池中的线程数目大于这个参数时，提交的任务会被放进任务缓存队列）</br>
     4. maximumPoolSize         线程池最大能容忍的线程数</br>
@@ -164,6 +167,13 @@ public static ExecutorService newCachedThreadPool() {
 7. 注解
 深入理解Java注解类型(@Annotation) https://blog.csdn.net/javazejian/article/details/71860633
 
+
+### C/C++
+
+1. 虚函数
+
+C++ 虚函数和纯虚函数的区别:
+https://www.runoob.com/w3cnote/cpp-virtual-functions.html
 
 ### 数据结构
 
@@ -400,13 +410,28 @@ AssetManager
 
 ### 网络请求
 
+TCP 与 UDP:
+https://www.cnblogs.com/fundebug/p/differences-of-tcp-and-udp.html
+
+TCP的三次握手与四次挥手理解:
+https://blog.csdn.net/qq_38950316/article/details/81087809
+
 ### FTP
 
 ### Http
 
 - Http
 
+HTTP请求方式中8种请求方法:
+https://www.cnblogs.com/weibanggang/p/9454581.html
+HTTP请求、响应报文格式:
+https://blog.csdn.net/a19881029/article/details/14002273
+
 - Https
+
+HTTP与HTTPS的区别:
+https://www.cnblogs.com/baizhanshi/p/10282797.html
+https://blog.csdn.net/gdutxiaoxu/article/details/97885526
 
 ### Bluetooth
 
