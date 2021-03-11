@@ -98,6 +98,9 @@ https://mp.weixin.qq.com/s/w697uPRCjn6kEzd_7u-aUQ
     - 垃圾回收算法:
     **标记清除法**、**复制法**、**标记——整理法**、**分代收集法**(年轻代、年老代、持久代)
 
+    - GCRoot：
+
+    https://blog.csdn.net/jie_sil/article/details/90745324
 
 
 2. HashMap(jdk1.7与jdk1.8的区别)
@@ -394,15 +397,32 @@ AssetManager
 
 ### 序列化
 
+https://www.cnblogs.com/tangZH/p/10998065.html
+
+- Serializable
+
+- Parcelable
+
 ## 通信
 
 ### IPC
+
+- Binder
+
+Binder 学习指南：http://weishu.me/2016/01/12/binder-index-for-newer/
+
+为什么Android要采用Binder作为IPC机制？
+https://blog.csdn.net/gaolh89/article/details/102630238
+
 
 - AIDL
 
 - Messager
 
 - ContentProvider
+
+- Broadcast
+
 
 ### 线程同步与通信
 
@@ -462,19 +482,26 @@ https://blog.csdn.net/gdutxiaoxu/article/details/97885526
 
 ## 性能
 
-### UI优化
+### UI 优化
+
+- Layout Inspector
+
+- uiautomatorviewer
 
 ### 内存优化
 
 - OOM
 - ANR
 - 分析
+
 1. Heap
 2. adb shell
 3. TraceView
 4. Dalvik日志
 5. logcat
 6. MAT
+7. LeakCanary
+8. Profiler
 
 ### 电量优化
 
@@ -622,6 +649,7 @@ adb shell pm list packages
 ## 手机功能
 
 ### 电话
+
 - 联系人
 - 通话记录
 
@@ -666,6 +694,18 @@ adb shell pm list packages
 
 ### VirtualAPK
 
+### DroidPlugin
+
+### RePlugin
+
+### Tinker
+
+### AndFix
+
+### Robust
+
+### Shadow
+
 ...
 
 
@@ -673,10 +713,29 @@ adb shell pm list packages
 
 ### Intent
 
-### AIDL
-
 ### wifi
 
 ### 国际化
 
 ### PopuWindow
+
+
+## Hook
+
+### 动态代理
+
+### CGLib
+
+### Dexmaker
+
+### Lancet
+
+### epic
+
+### SandHook
+
+### xHook
+
+### Frida
+
+### Inline Hook
